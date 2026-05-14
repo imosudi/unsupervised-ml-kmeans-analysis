@@ -16,12 +16,24 @@ This project explores unsupervised machine learning using the K-Means clustering
 
 Clone the repository and run the notebook or Python script locally.
 
+### Linux/Mac
+
 ```bash
 git clone https://github.com/imosudi/unsupervised-ml-kmeans-analysis.git
 cd unsupervised-ml-kmeans-analysis
-
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
+```
 
+### Windows
+
+```bash
+git clone https://github.com/imosudi/unsupervised-ml-kmeans-analysis.git
+cd unsupervised-ml-kmeans-analysis
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 Run:

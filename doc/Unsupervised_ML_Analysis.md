@@ -22,7 +22,7 @@ A synthetic classification dataset was generated using `sklearn.datasets.make_cl
 > `make_classification` enforces the constraint: `n_classes × n_clusters_per_class ≤ 2^n_informative`.  
 > With 2 informative features that ceiling is **2² = 4**, making 4 the maximum number of separable classes when `n_clusters_per_class = 1`.
 
-![Dataset Visualisation](assets/screenshots/task1.png)
+![Dataset Visualisation](../assets/screenshots/task1.png)
 
 Features were standardised with `StandardScaler` before clustering. KMeans is a distance-based algorithm - without standardisation, a feature with a larger numeric range would dominate the distance calculation and bias the cluster boundaries.
 
@@ -52,7 +52,7 @@ The fitted model was visualised using a **Voronoi / decision-boundary plot**:
 
 This makes the cluster boundaries and centroid positions directly interpretable alongside the data distribution.
 
-![Decision Region Visualisation](assets/screenshots/task3.png)
+![Decision Region Visualisation](../assets/screenshots/task3.png)
 
 
 
@@ -99,7 +99,7 @@ Three k-values were tested with a fixed `random_state=42`: **k ∈ {2, 4, 7}**.
 
 **Key insight:** The silhouette score forms a curve with a peak near the natural cluster count. It is one of the standard heuristics - alongside the elbow method on inertia - for choosing k without ground-truth labels. Neither metric is definitive on its own; combining both gives a more confident decision.
 
-![Effect of k on Silhouette Score](assets/screenshots/task5_1.png)
+![Effect of k on Silhouette Score](../assets/screenshots/task5_1.png)
 
 
 

@@ -38,7 +38,7 @@ KMeans(n_clusters=4, n_init=10, random_state=42)
 
 Using `n_init=10` (the default) means the algorithm runs 10 independent initialisations and keeps the solution with the lowest inertia (within-cluster sum of squared distances). This makes the result robust to unlucky centroid starts.
 
----
+
 
 ## 3. Decision-Region Visualisation (Meshgrid Plot)
 

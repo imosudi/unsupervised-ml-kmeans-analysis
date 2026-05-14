@@ -99,5 +99,7 @@ This project is licensed under the **MIT license**. See [LICENSE](./LICENSE) for
 
 ## Author
 
-[![GitHub](https://img.shields.io/badge/GitHub-imosudi-181717?logo=github)](https://github.com/imosudi)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail)](mailto:mosudi.isiaka@gmail.com)
+
+**Mosudi Isiaka O.**  
+(https://img.shields.io/badge/Email-Contact-blue?logo=gmail) [mosudi.isiaka@gmail.com](mailto:mosudi.isiaka@gmail.com)  
+[![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail)] [https://github.com/imosudi](https://github.com/imosudi)

@@ -38,9 +38,6 @@ jupyter notebook
 ```
 
 
----
-
-
 ## Project goals
 
 - Generate synthetic datasets using `sklearn.datasets.make_classification`

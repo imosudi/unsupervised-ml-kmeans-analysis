@@ -2,6 +2,7 @@
 Generate PDF version of the analysis summary from Markdown.
 """
 
+from datetime import date
 import os
 import re
 from pathlib import Path
@@ -123,7 +124,7 @@ def markdown_to_html(md_file):
     <body>
         {html_content}
         <div class="footer">
-            <p>Generated on 2026-05-06 | FH Technikum Wien Data Analysis Project</p>
+            <p>Generated on {date.today()} | Mosudi I. O., FH Technikum Wien</p>
         </div>
     </body>
     </html>

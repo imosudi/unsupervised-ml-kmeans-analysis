@@ -50,8 +50,38 @@ jupyter notebook
 - Compare clustering stability and performance
 - Strengthen practical understanding of unsupervised machine learning
 
+## Project Structure
 
-## License
+```
+unsupervised-ml-kmeans-analysis/
+├── assets/
+│   └── screenshots/          # Screenshots for the analysis report
+│       ├── task1.png
+│       ├── task3.png
+│       ├── task5_1.png
+│       └── task5_2.png
+├── doc/
+│   ├── assets/
+│   │   └── screenshots/      # Copies of screenshots for documentation
+│   ├── generate_pdf.py       # Script to generate PDF from markdown
+│   └── Unsupervised_ML_Analysis.md  # Detailed analysis report
+├── LICENSE
+├── main.ipynb               # Jupyter notebook with the analysis
+├── main.py                  # Python script version
+├── README.md                # This file
+└── requirements.txt         # Python dependencies
+```
+
+## Documentation
+
+The detailed analysis report is available in `doc/Unsupervised_ML_Analysis.md`. To generate a PDF version:
+
+```bash
+cd doc
+python generate_pdf.py
+```
+
+This will create `Unsupervised_ML_Analysis.pdf` in the `doc/` directory.
 
 This project is licensed under the **MIT license**. See [LICENSE](./LICENSE) for details.
 

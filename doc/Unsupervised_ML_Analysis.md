@@ -118,7 +118,7 @@ KMeans with `k-means++` initialisation places the first centroid uniformly at ra
 
 The production default of `n_init=10` (or higher) addresses this by selecting the best result from multiple runs, making the final clustering robust to any single bad seed.
 
-![Effect of Random Seed on Silhouette Score](assets/screenshots/task5_2.png)
+![Effect of Random Seed on Silhouette Score](../assets/screenshots/task5_2.png)
 
 
 

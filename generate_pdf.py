@@ -143,13 +143,16 @@ if __name__ == "__main__":
     # Get the directory of this script
     script_dir = Path(__file__).parent
     
+    assets_dir = script_dir / "assets"
+    assets_dir.mkdir(exist_ok=True)
+
     # Create screenshots directory if it doesn't exist
-    screenshots_dir = script_dir / "assets/screenshots"
+    screenshots_dir = assets_dir / "screenshots"
     screenshots_dir.mkdir(exist_ok=True)
     
     # Input and output paths
-    md_file = script_dir / "analysis_summary.md"
-    pdf_file = script_dir / "analysis_summary.pdf"
+    md_file = script_dir / "Unsupervised_ML_Analysis.md"
+    pdf_file = script_dir / "Unsupervised_ML_Analysis.pdf"
     
     # Generate PDF
     if md_file.exists():

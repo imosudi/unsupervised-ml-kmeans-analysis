@@ -118,6 +118,11 @@ def markdown_to_html(md_file):
             @page {{
                 size: A4;
                 margin: 2cm;
+                @bottom-center {{
+                    content: "Page " counter(page) " of " counter(pages);
+                    font-size: 10pt;
+                    color: #666;
+                }}
             }}
         </style>
     </head>

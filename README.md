@@ -101,8 +101,12 @@ This project is licensed under the **MIT license**. See [LICENSE](./LICENSE) for
 
 
 **Mosudi Isiaka O.**  
-![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail) [mosudi.isiaka@gmail.com](mailto:mosudi.isiaka@gmail.com)  
+![Email (https://img.shields.io/badge/Email-Contact-blue?logo=gmail) mosudi.isiaka@gmail.com](mailto:mosudi.isiaka@gmail.com)  
 ![GitHub](https://img.shields.io/badge/GitHub-imosudi-181717?logo=github) [https://github.com/imosudi](https://github.com/imosudi)
 
 [![GitHub](https://img.shields.io/badge/GitHub-imosudi-181717?logo=github)](https://github.com/imosudi)
 [![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail)](mailto:mosudi.isiaka@gmail.com)
+
+
+📧 [mosudi.isiaka@gmail.com](mailto:mosudi.isiaka@gmail.com)  
+💻 [https://github.com/imosudi](https://github.com/imosudi)
